@@ -1,0 +1,104 @@
+@media(max-width: 1100px) {
+
+    .hero_sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .hero_img {
+        transform: scale(0.8);
+    }
+
+}
+
+@media(max-width: 850px) {
+
+    .toggleMenu {
+        display: block;
+    }
+
+    .logo .logoImg {
+        width: 120px;
+    }
+
+    .nav_right {
+        width: 100%;
+        max-width: 450px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        background: var(--white_color);
+        border-left: 1px solid var(--shadow_color);
+        position: fixed;
+        top: 70px;
+        right: -110%;
+        z-index: 99;
+    }
+
+    .nav_right.active {
+        right: 0;
+    }
+
+    .nav_links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav_links li {
+        display: flex;
+        width: 100%;
+    }
+
+    .nav_links li a {
+        width: 100%;
+        text-align: right;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 20px;
+    }
+
+    .nav_links li a.active::before,
+    .nav_links li a:hover::before {
+        width: 0%;
+    }
+
+    .nav_links li a.active,
+    .nav_links li a:hover {
+        color: var(--white_color);
+        background: var(--main_color);
+    }
+
+
+
+
+    .hero_sec {
+        gap: 10px;
+    }
+
+    .hero_img {
+        transform: scale(0.6);
+    }
+
+    .intro_heading {
+        font-size: 18px;
+    }
+    
+    .name_heading {
+        font-size: 50px;
+    }
+    
+    .skills_heading {
+        font-size: 22px;
+        overflow: hidden;
+    }
+    
+    .skills_heading .textTyper {
+        font-size: 24px;
+    }
+
+}

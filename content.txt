@@ -1,0 +1,26 @@
+/* google fonts */
+@import url ('<style>
+  @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap');
+</style>')
+/*
+font-family: 'Merienda', cursive;
+font-family: 'Poppins', sans-serif;
+*/
+
+/* Root Variables */
+:root {
+    /*____Ligth Theme____*/
+    --white_color: #ffffff;
+    --main_color: #a955ed;
+    --black_color: #111111;
+    --shadow_color: #cfcfcf;
+    --text_color: #222222;
+
+    /*____Dark Theme____*/
+    /*--white_color: #111111;
+    --main_color: #a955ed;
+    --black_color: #ffffff;
+    --shadow_color: #050505;
+    --text_color: #f3f3f3;*/
+
+}
