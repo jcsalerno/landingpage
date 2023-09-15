@@ -102,3 +102,14 @@
     }
 
 }
+
+/* Estilos para ocultar o menu principal em dispositivos móveis */
+@media (max-width: 768px) {
+    .nav_links {
+        display: none;
+    }
+
+    .toggleMenu {
+        display: block;
+    }
+}

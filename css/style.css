@@ -287,3 +287,39 @@ body.active {
     background: var(--main_color);
     transform: scale(1.05);
 }
+
+/* Estilos para o menu burger */
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+}
+
+/* Estilos para o menu burger quando aberto */
+.mobile-menu.active {
+    display: flex;
+}
+
+.mobile-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.mobile-links li {
+    margin: 10px 0;
+}
